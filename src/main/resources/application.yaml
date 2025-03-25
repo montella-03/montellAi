@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: anagram-service
+
+  ai:
+    ollama:
+      chat:
+        model: llama3.2:latest
+

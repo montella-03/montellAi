@@ -1,0 +1,428 @@
+{
+  "deleted": false,
+  "creationTime": "2025-03-25 10:37",
+  "createdBy": {
+    "publicId": "17e0f41e-f0c1-4c43-981e-46095d44780d",
+    "fullName": "Demo Account"
+  },
+  "tenant": "48f23ef1-93cf-4f7f-a421-538a4024de94",
+  "id": "67e2875eead23e18480bf8a9",
+  "claimNumber": "DC-9876543210",
+  "claimBatch": null,
+  "patient": {
+    "publicId": "e74784e7-fce8-47e8-986b-540dbb09d5bd",
+    "membershipNumber": "MINT/10101/01",
+    "person": {
+      "fullName": "fname surname 8DQ3pXDvEXfMLUhxPQqlh61RB",
+      "gender": "MALE",
+      "phoneNumber": "254788377466463",
+      "physicalAddress": null,
+      "child": false,
+      "age": 15
+    },
+    "memberType": "Principal",
+    "vip": true,
+    "staffId": "GH-091"
+  },
+  "principalMember": {
+    "publicId": "e74784e7-fce8-47e8-986b-540dbb09d5bd",
+    "membershipNumber": "MINT/10101/01",
+    "person": {
+      "fullName": "fname surname 8DQ3pXDvEXfMLUhxPQqlh61RB",
+      "gender": "MALE",
+      "phoneNumber": "254788377466463",
+      "physicalAddress": null,
+      "child": false,
+      "age": 15
+    },
+    "memberType": "Principal",
+    "vip": true,
+    "staffId": "GH-091"
+  },
+  "comments": [
+
+  ],
+  "providerDto": {
+    "publicId": "258124c8-4f14-4426-b505-2f03399012f5",
+    "providerName": "The Nairobi Hospital (Hospital Level 6)",
+    "status": "ACTIVE",
+    "providerDepartments": [
+      {
+        "publicId": "4d5b810b-e02d-4ca5-b3c5-2e56bbe2945a",
+        "departmentName": "Pharmacy"
+      },
+      {
+        "publicId": "8e2c07bd-1601-4211-ba20-58ea377d2181",
+        "departmentName": "Radiology"
+      },
+      {
+        "publicId": "ffbda94d-2379-4e3d-ae46-92105aae12a0",
+        "departmentName": "Maternity"
+      },
+      {
+        "publicId": "e8f48c87-e477-4a32-96fb-18941837d674",
+        "departmentName": "DENTAL DEPARTMENTS"
+      },
+      {
+        "publicId": "447386d7-9abe-45dc-83ff-bc186d5386f7",
+        "departmentName": "Laboratory"
+      }
+    ],
+    "tenant": "176c01d9-4034-49ce-ba03-8d6f1907caf5",
+    "currency": {
+      "publicId": "dbec709d-df0e-4b5a-bb29-96bdf940980e",
+      "code": "KES",
+      "name": "Kenyan Shilling"
+    }
+  },
+  "events": [
+    {
+      "eventDate": "2025-03-25 10:37",
+      "event": "Open",
+      "by": {
+        "publicId": "17e0f41e-f0c1-4c43-981e-46095d44780d",
+        "fullName": "Demo Account"
+      }
+    },
+    {
+      "eventDate": "2025-03-25 10:37",
+      "event": "Require_Authorization",
+      "by": {
+        "publicId": "17e0f41e-f0c1-4c43-981e-46095d44780d",
+        "fullName": "Demo Account"
+      }
+    },
+    {
+      "eventDate": "2025-03-25 10:37",
+      "event": "Locked",
+      "by": {
+        "publicId": null,
+        "fullName": "SYSTEM"
+      }
+    }
+  ],
+  "rejectionReasons": [
+
+  ],
+  "invoices": [
+    {
+      "deleted": false,
+      "creationTime": "2025-03-25 10:37",
+      "createdBy": null,
+      "tenant": null,
+      "id": "67e2875eead23e18480bf8a8",
+      "type": "Products",
+      "invoiceDate": "2025-03-25T10:37:18.623+00:00",
+      "deductionType": null,
+      "payerType": null,
+      "payerInfo": null,
+      "invoiceNumber": "1009488",
+      "payee": {
+        "publicId": "258124c8-4f14-4426-b505-2f03399012f5",
+        "description": "Enock Simiyu Wangila",
+        "payeeType": "Customer"
+      },
+      "payees": null,
+      "invoiceType": "Single",
+      "invoiceStatus": "Pending",
+      "invoiceSetupType": null,
+      "invoiceItems": [
+        {
+          "deleted": false,
+          "creationTime": "2025-03-25 10:37",
+          "createdBy": null,
+          "tenant": null,
+          "id": "de1ada1e-4cee-4580-9447-36b1a518a2f8",
+          "invoiceDepartment": {
+            "publicId": "e8f48c87-e477-4a32-96fb-18941837d674",
+            "departmentName": "DENTAL DEPARTMENTS (Accredited)",
+            "planDepartmentPublicId": null
+          },
+          "products": [
+            {
+              "deleted": false,
+              "creationTime": "2025-03-25 10:37",
+              "createdBy": null,
+              "tenant": null,
+              "copayAmount": 0,
+              "id": "06d84ed2-53f2-4092-96b8-00343eadf2a0",
+              "description": "Dental",
+              "productId": null,
+              "quantity": 1,
+              "pricePerUnit": 1000,
+              "lineTotal": 1000,
+              "copay": null,
+              "payableTotal": 1000,
+              "totalDeductionsAmount": 0,
+              "amountApproved": 0,
+              "discount": 0,
+              "clientToPayAmount": null,
+              "comments": [
+
+              ],
+              "acceptanceComment": null,
+              "approvalComment": null,
+              "accepted": false,
+              "approved": false,
+              "paid": false,
+              "rejected": false,
+              "verified": false,
+              "clientToPay": false,
+              "isBillable": true,
+              "deductions": [
+
+              ],
+              "rejectionReasons": [
+
+              ],
+              "department": {
+                "publicId": "e8f48c87-e477-4a32-96fb-18941837d674",
+                "departmentName": "DENTAL LAB DEPARTMENTS (Accredited)",
+                "planDepartmentPublicId": null
+              },
+              "planName": null,
+              "subscriptionItemPublicId": null,
+              "billable": true
+            }
+          ],
+          "invoiceItemTotalAmount": 1000,
+          "invoiceItemTotalApprovedAmount": 0,
+          "invoiceItemPayableTotalAmount": 0,
+          "initialAmount": null,
+          "invoiceTotalDeductionAmount": 0
+        },
+        {
+          "deleted": false,
+          "creationTime": "2025-03-25 10:37",
+          "createdBy": null,
+          "tenant": null,
+          "id": "90735618-f691-4c77-8a90-d934772b35d4",
+          "invoiceDepartment": {
+            "publicId": "447386d7-9abe-45dc-83ff-bc186d5386f7",
+            "departmentName": "Laboratory (Accredited)",
+            "planDepartmentPublicId": null
+          },
+          "products": [
+            {
+              "deleted": false,
+              "creationTime": "2025-03-25 10:37",
+              "createdBy": null,
+              "tenant": null,
+              "copayAmount": 0,
+              "id": "7ce10bc8-763d-46a9-95e7-e3155bf1d0d8",
+              "description": "Lab",
+              "productId": null,
+              "quantity": 1,
+              "pricePerUnit": 9000,
+              "lineTotal": 9000,
+              "copay": null,
+              "payableTotal": 9000,
+              "totalDeductionsAmount": 0,
+              "amountApproved": 0,
+              "discount": 0,
+              "clientToPayAmount": null,
+              "comments": [
+
+              ],
+              "acceptanceComment": null,
+              "approvalComment": null,
+              "accepted": false,
+              "approved": false,
+              "paid": false,
+              "rejected": false,
+              "verified": false,
+              "clientToPay": false,
+              "isBillable": true,
+              "deductions": [
+
+              ],
+              "rejectionReasons": [
+
+              ],
+              "department": {
+                "publicId": "447386d7-9abe-45dc-83ff-bc186d5386f7",
+                "departmentName": "Laboratory (Accredited)",
+                "planDepartmentPublicId": null
+              },
+              "planName": null,
+              "subscriptionItemPublicId": null,
+              "billable": true
+            }
+          ],
+          "invoiceItemTotalAmount": 9000,
+          "invoiceItemTotalApprovedAmount": 0,
+          "invoiceItemPayableTotalAmount": 0,
+          "initialAmount": null,
+          "invoiceTotalDeductionAmount": 0
+        }
+      ],
+      "isNHIFCardAvailable": false,
+      "isNHIFCardValid": false,
+      "invoiceTotalAmount": 10000,
+      "invoiceTotalApprovedAmount": 0,
+      "invoicePayableTotalAmount": 10000.00,
+      "invoicePaidAmount": 0,
+      "invoiceBalanceAmount": 10000.00,
+      "departments": null,
+      "initialInvoiceAmount": null,
+      "provider": null,
+      "approvalComment": null,
+      "approvalDate": null,
+      "payments": [
+
+      ],
+      "invoiceTotalDeductionAmount": 0,
+      "withHoldingTax": 0.00,
+      "creditAmount": 0.00,
+      "debitAmount": 0.00,
+      "claimType": null
+    }
+  ],
+  "claimStatus": "Require_Authorization",
+  "provider": {
+    "institutionName": "Faru Health Limited",
+    "publicId": "48f23ef1-93cf-4f7f-a421-538a4024de94"
+  },
+  "insurance": {
+    "institutionName": "Insurer Limited",
+    "publicId": "89f90054-a615-11ed-afa1-0242ac120002"
+  },
+  "payee": {
+    "publicId": "258124c8-4f14-4426-b505-2f03399012f5",
+    "description": "The Nairobi Hospital (Hospital Level 6)",
+    "payeeType": "Provider"
+  },
+  "payeeAccount": null,
+  "diagnoses": [
+    {
+      "deleted": false,
+      "creationTime": "2025-03-25 10:37",
+      "createdBy": null,
+      "tenant": null,
+      "id": "839",
+      "code": "B500",
+      "description": "Plasmodium falciparum malaria with cerebral complications"
+    }
+  ],
+  "preAuthorization": null,
+  "claimValue": 10000.00,
+  "claimApprovedAmount": 0.00,
+  "claimCopaymentAmount": 0.00,
+  "claimPayableTotal": 9700.00,
+  "claimPaidAmount": 0.00,
+  "claimBalanceAmount": 9700.00,
+  "claimDate": "2025-03-25 10:37",
+  "claimType": "Normal",
+  "subscription": {
+    "publicId": "f0ca5fdd-ffc3-4f5c-b4dd-6363574c73b6",
+    "benefit": {
+      "publicId": "839ff3f5-2b47-4757-bfc5-a67a8f079333",
+      "benefitName": "Blue"
+    },
+    "cover": null,
+    "schemePolicyPeriod": {
+      "publicId": "71d9313f-5e6d-4425-95e7-04e18c8d01d0",
+      "startDate": "2024-02-01",
+      "endDate": "2025-01-31",
+      "type": "INSURED",
+      "namePeriodType": "Test Scheme 1PgMj Oct 07 2023 - Oct 06 2024 INSURED"
+    }
+  },
+  "parentSubscriptionItem": {
+    "publicId": "2c3babf1-78a1-44e4-b5aa-c1ae082bb526",
+    "planDetails": {
+      "publicId": null,
+      "plan": {
+        "id": 589,
+        "publicId": "b2491e12-53ca-4359-af07-d4c66ab98992",
+        "planName": "INPATIENT",
+        "schemeName": "Test Scheme eGg2Z",
+        "schemePublicId": "bdeaa232-2d42-11ee-be56-0242ac120002",
+        "schemeType": "INSURED",
+        "schemeDivisionType": null,
+        "customerName": "Clarkson Company",
+        "customerPublicId": "21517cb1-0f7d-4f64-9de3-8d7314d737cc",
+        "planItemPublicId": null
+      },
+      "planLimit": 50000.00,
+      "allowMultipleProducts": false,
+      "insurers": [
+        {
+          "institutionName": "Insurer Limited",
+          "publicId": "89f90054-a615-11ed-afa1-0242ac120002"
+        }
+      ],
+      "policyPeriodEndDate": "2024-10-08",
+      "hasLimit": false
+    },
+    "utilizationType": "INDIVIDUAL",
+    "schemeDivisionType": "HEALTHCARE"
+  },
+  "visitDate": "18-03-2024",
+  "stampDate": "18-05-2024",
+  "dischargeDate": null,
+  "submissionDate": null,
+  "endOfBillingDate": null,
+  "rejectedDate": null,
+  "approvedDate": null,
+  "deathDate": null,
+  "insurers": [
+    {
+      "institutionName": "Insurer Limited",
+      "publicId": "89f90054-a615-11ed-afa1-0242ac120002"
+    }
+  ],
+  "deductions": [
+    {
+      "deductionId": "d935867a-49d7-4ee9-91ab-4572d2cbf698",
+      "deductionType": "Deduction",
+      "deductionDescription": "This is the copay set for this provider",
+      "deductionCategory": "Copayment",
+      "providerInitialized": true,
+      "deductionValue": 300.00,
+      "deductionValueType": "AMOUNT",
+      "copayRecoverableFrom": null
+    }
+  ],
+  "providerPublicId": "258124c8-4f14-4426-b505-2f03399012f5",
+  "locked": true,
+  "lockReason": "PARENT_PLAN_DEACTIVATED",
+  "binder": true,
+  "binderType": "Binder",
+  "interimBillAmount": 0.00,
+  "batched": false,
+  "multiPayees": false,
+  "previousStatus": null,
+  "reverseStatus": null,
+  "visitType": "Inpatient",
+  "remainingAppealDays": 0,
+  "appealCount": 0,
+  "isFlagged": false,
+  "fraudCase": null,
+  "dischargeType": null,
+  "approverComment": null,
+  "rejectorComment": null,
+  "claimDeductionsAmount": 300.00,
+  "claimDischargeAmount": 0.00,
+  "hasOptical": true,
+  "reversed": null,
+  "hasCapitation": true,
+  "hasCopay": true,
+  "capitationAmount": 900.00,
+  "schemeHasFund": null,
+  "currency": "KES",
+  "allowExgratia": true,
+  "specialClaim": false,
+  "allowClaimProcessingWithBenefitExhausted": false,
+  "tatDuration": "0 days, 0 hrs, 0 mins, 0 secs",
+  "baseCurrencyAmount": 0.00,
+  "providerCurrency": {
+    "publicId": "dbec709d-df0e-4b5a-bb29-96bdf940980e",
+    "code": "KES",
+    "name": "Kenyan Shilling"
+  },
+  "paymentDate": null,
+  "funded": false,
+  "totalWithholdingTax": 0.00,
+  "preliminaryWithholdingTax": 0.00
+}
