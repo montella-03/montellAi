@@ -1,8 +1,8 @@
 package com.montella.ai.service;
 
-import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
+import java.io.IOException;
 
 public interface AnagramService {
 
-    StreamingResponseBody getClaimAnalysis(String claim);
+    String getClaimAnalysis(String claim) throws IOException;
 }

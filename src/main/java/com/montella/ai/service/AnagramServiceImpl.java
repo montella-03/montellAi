@@ -5,6 +5,10 @@ import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
 
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Objects;
 
 @Service
@@ -15,16 +19,14 @@ public class AnagramServiceImpl implements AnagramService {
         this.chatClient = chatClientBuilder.build();}
 
     @Override
-    public StreamingResponseBody getClaimAnalysis(String claimNumber) {
-        return outputStream -> {
+    public String getClaimAnalysis(String claimNumber) throws IOException {
             ChatClient.CallResponseSpec analysisResponse = chatClient
                     .prompt(String.format("Based on the information associated with this claim number %s , as claimNumber: %s" +
-                            " provide an analysis of the claim and  the patient  diagnosis and projected approvals", claimNumber, claimNumber))
+                                    " provide an analysis of the claim and the patient diagnosis and projected approvals.",
+                            claimNumber, claimNumber))
                     .tools(new ClaimTools())
                     .call();
 
-            outputStream.write(Objects.requireNonNull(analysisResponse.content()).getBytes());
-            outputStream.flush();
-        };
+            return analysisResponse.content();
     }
 }

@@ -22,8 +22,7 @@ public class ClaimAnalysisRunner implements CommandLineRunner {
 
         String claimNumber = "DC-9876543210";
 
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        anagramService.getClaimAnalysis(claimNumber).writeTo(outputStream);
+       String outputStream =  anagramService.getClaimAnalysis(claimNumber);
 
         log.info("Claim Analysis: {}", outputStream);
     }
