@@ -1,9 +1,18 @@
 spring:
   application:
-    name: anagram-service
+    name: api-service
 
+  data:
+    mongodb:
+      auto-index-creation: false
+      uri: ${MONGO_DATABASE_URI}
+      database: ${MONGO_DATABASE_NAME}
   ai:
-    ollama:
+    openai:
+      api-key: ${OPENAI_API_KEY}
       chat:
-        model: llama3.2:latest
-
+        options:
+          model: gpt-4.1
+          temperature: 0.7
+          max-tokens: 2000
+          top-p: 1.0
